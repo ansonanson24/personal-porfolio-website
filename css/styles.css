@@ -1,0 +1,152 @@
+/* Element Selectors (ordered alphabetically) */
+
+a, body {
+  color: #40514E
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #66BFBF;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+hr {
+  border-style: none;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  margin: 50px auto;
+  width: 5%;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+
+/* Class Selectors (ordered by appearance) */
+
+.top-container {
+  position: relative;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+
+
+.middle-container {
+  margin: 25px 0;
+}
+
+.profile {
+  background-color: #EEE3CB;
+  padding: 50px 50px;
+}
+
+.profile-img {
+  border-radius: 100%;
+  margin-bottom: 5px;
+  width: 9%;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+  font-size: 1.15rem;
+  font-weight:550;
+}
+
+.skills-icons {
+  font-size: 2.5rem;
+}
+
+.skills-icons-images {
+  width: 40px;
+  height: 40px;
+}
+
+.repo-card {
+  width: 40%;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.get-in-touch-bar {
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+}
+
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 0 0 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+/* ID Selectors */
+
+#subtitle {
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-weight: 550;
+}
+
+#cat1 {
+ position: absolute;
+ left: 20px;
+ top: 280px;
+}
+
+#cat2 {
+ position: absolute;
+ right: 20px;
+ transform: scale(0.7);
+ top: 1400px;
+}
+
+#cat3 {
+ position: absolute;
+ transform: scale(0.5);
+ left: 20px;
+ top: 2200px;
+}
+
+
+#github-icon:hover {
+  text-decoration: none;
+  color: #6e5494;
+}
+
+#linkedin-icon:hover {
+  text-decoration: none;
+  color: #0077b5;
+}
+
+#twitter-icon:hover {
+  text-decoration: none;
+  color: #1da1f2;
+}
